@@ -20,8 +20,7 @@ git checkout tags/v0.1.7
 pip install -r requirements.txt
 python setup.py install --headless
 ```
-4. Clone and install ```habitat-lab-v0.1.7```
-Important: Remove or comment out ```moviepy>=1.0.1``` and ```tensorflow==1.13.1``` from ```./habitat_baselines/rl/requirements.txt``` before running ```python setup.py develop --all```
+4. Clone and install ```habitat-lab-v0.1.7```. Remove or comment out ```moviepy>=1.0.1``` and ```tensorflow==1.13.1``` from ```./habitat_baselines/rl/requirements.txt``` before running ```python setup.py develop --all```
 ```bash
 git clone https://github.com/facebookresearch/habitat-lab.git
 cd ../habitat-lab
