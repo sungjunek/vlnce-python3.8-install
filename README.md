@@ -12,7 +12,7 @@ conda activate vlnce3.8
 git clone git@github.com:MarSaKi/ETPNav.git
 cd ETPNav
 ```
-4. Clone and install ```habitat-sim-v0.1.7```
+3. Clone and install ```habitat-sim-v0.1.7```
 ```bash
 git clone https://github.com/facebookresearch/habitat-sim.git
 cd habitat-sim/
