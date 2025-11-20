@@ -35,7 +35,7 @@ python setup.py develop --all
 ```bash
 pip install setuptools==58.0.0
 pip uninstall lmdb -y
-rm -rf /home/sungjki/anaconda3/envs/vlnce38/lib/python3.8/site-packages/lmdb*
+rm -rf /home/sungjki/anaconda3/envs/vlnce3.8/lib/python3.8/site-packages/lmdb*
 conda install -c conda-forge python-lmdb -y
 ```
 6. Install remaining packages
